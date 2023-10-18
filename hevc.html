@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <button data-playing="false" role="switch" aria-checked="false">
+            <span id="play">Play/Pause</span>
+        </button>
+        <input type="range" id="volume" min="0" max="2" value="1" step="0.01" />
+        <video src="./hevc_aac.mov" id="a" width="320" height="240"></video>
+        <div id="volume-display"></div>
+    </body>
+    <script src="./webaudio.js" type="text/javascript"></script>
+</html>
